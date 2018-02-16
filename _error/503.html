@@ -99,10 +99,14 @@
 		<h3>Error: 503</h3>
 	</div>
 
-	<div class="logo">
-		<h5>WeDeploy</h5>
-		<p>Copyright © 2018 Liferay, Inc.</p>
-	</div>
+  <div class="logo">
+    <h5>WeDeploy</h5>
+    <p>Copyright © <span id="year"></span> Liferay, Inc.</p>
+  </div>
+  
+  <script type="text/javascript">
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+  </script>
 </body>
 </html>
 
