@@ -1,13 +1,13 @@
-# WeDeploy Hosting Demo
+# Hosting [![Badge](https://img.shields.io/badge/built%20with-wedeploy-00d46a.svg?style=flat)](http://wedeploy.com)
 
-This template will help you through the process of deploying a WeDeploy Hosting service.
+An example of [WeDeploy Hosting](https://wedeploy.com/docs/hosting/).
 
-> [Visit the documentation to learn how to start hosting static files.](https://wedeploy.com/docs/deploy/)
+## Instructions
 
-## How it works
+1. Install the [WeDeploy CLI](https://wedeploy.com/docs/intro/using-the-command-line/).
+2. Clone this repository.
+3. Open the project with your command line and run `we deploy -p yourproject`.
 
-For hosting static files with our [Hosting Service](https://wedeploy.com/docs/hosting/), any files you deploy within the same folder as your `wedeploy.json` will be served as static files.
+## License
 
-Files put into the special directory `/_error` are mapped as the error files to be served in case of an error. They must take the form of `<error code>.html`.
-
-
+[BSD-3-Clause](./LICENSE.md), © Liferay, Inc.
